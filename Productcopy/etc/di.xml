@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * EncoraProductcopy Integration
+ *
+ * @category  Encora
+ * @package   Encora_Productcopy
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Encora\Productcopy\Api\MessageInterface" type="Encora\Productcopy\Model\Message" />
+
+    <preference for="Encora\Productcopy\Api\SubscriberInterface" type="Encora\Productcopy\Model\Subscriber" />
+
+</config>
